@@ -10,7 +10,7 @@ def checkNumber(a,b,c):
             return 1
                 
 def checkScaleneTriangle(a,b,c):
-    if ((a + b) > c and abs(a-b) < c) or ((a + c) > b and abs(a-c) < b) or ((b + c) > a and abs(b-c) < a):
+    if ((a + b) > c and abs(a-b) < c) and ((a + c) > b and abs(a-c) < b) and ((b + c) > a and abs(b-c) < a):
             return 1
     else:
             return 0
